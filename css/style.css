@@ -1,0 +1,184 @@
+/* Base styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('../images/paper-texture.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.85);
+}
+
+.logo {
+  width: 80px;
+  height: auto;
+}
+
+.slogan {
+  font-style: italic;
+  color: #2e7d32;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  margin: 10px 0;
+  font-size: 2em;
+  color: #1b5e20;
+}
+
+nav {
+  background-color: #a5d6a7;
+  padding: 10px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #1b5e20;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.9);
+  max-width: 1000px;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+h2 {
+  color: #388e3c;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #a5d6a7;
+  color: #1b5e20;
+  font-weight: bold;
+}
+
+/* Employee Cards */
+.team-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.employee-card {
+  background-color: #e8f5e9;
+  padding: 15px;
+  border-radius: 10px;
+  width: 260px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.employee-card img {
+  width: 100%;
+  border-radius: 10px;
+  height: auto;
+}
+
+.employee-card h3 {
+  margin: 10px 0 5px;
+  color: #2e7d32;
+}
+
+.employee-card p {
+  margin: 5px 0;
+}
+
+/* Products */
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.product {
+  background-color: #e0f2f1;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  width: 220px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.product img {
+  width: 100%;
+  border-radius: 10px;
+  height: auto;
+}
+
+.product p {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #004d40;
+}
+
+/* Policies List Styling */
+.policies ul {
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
+
+.policies ul li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+/* Contact Page */
+.contact-info {
+  margin-top: 20px;
+  line-height: 1.7;
+}
+
+.contact-info h2 {
+  margin-bottom: 5px;
+}
+
+.contact-info a {
+  color: #1b5e20;
+  text-decoration: underline;
+}
+
+/* Facebook Icon */
+.social-icon {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social-icon img {
+  width: 60px;
+  height: 60px;
+}
+
